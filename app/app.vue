@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <h1> Welcome to may New Nuxt projects </h1>
-  </div>
+    <NuxtLoadingIndicator
+  :throttle="0"
+  :height="3"
+  color="green"
+/>
+  <NuxtPage />
 </template>
