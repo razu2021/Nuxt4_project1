@@ -12,6 +12,7 @@ const users = ref({
 </script>
 
 <template>
+  <MainHeader/>
   <div>
     <h1>Md Razu Hossain Raj </h1>
       <NuxtLink to="/about"> About page</NuxtLink>
@@ -22,6 +23,6 @@ const users = ref({
       <h1>{{ users.name }}</h1>
       <h1>{{ users.age }}</h1>
 
- <NuxtImg src="/1.jpg" />
+ <NuxtImg src="/1.jpg" loading="lazy"/>
 
 </template>
