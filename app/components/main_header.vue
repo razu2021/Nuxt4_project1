@@ -4,7 +4,7 @@
             <li><NuxtLink to="/">Home</NuxtLink></li>
             <li><NuxtLink to="/about">about</NuxtLink></li>
             <li><NuxtLink to="/nuxttime">Nuxt time</NuxtLink></li>
-            <li><NuxtLink to="">Home</NuxtLink></li>
+            <li><NuxtLink to="/route-fullpath">Route Fullpath</NuxtLink></li>
             <li><NuxtLink to="">Home</NuxtLink></li>
         </ul>
     </div>
